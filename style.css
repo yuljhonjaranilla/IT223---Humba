@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: red;
+    font-size: 36px;
+    font-weight: bold;
+    text-underline-offset: 20px;
+}
+p{
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 25%;
+    margin-bottom: 15px;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 400px;
+}
+
+td, th, table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: green;
+    color: white;
+}
+
+tr{
+    background-color: rgb(196, 196, 196);
+}
+
+ol > li::marker {
+    font-weight: bold;
+  }
+
+ol {
+    margin-left: 28%;
+    margin-right: 28%;
+    line-height: 30px;
+}
